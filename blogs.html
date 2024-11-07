@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- _____________________favicon_____________________ -->
+
+    <link rel="shortcut icon" href="./pcd-fav.png" type="image/png" />
+    <title>PCD Consultancy Services Blogs | Your Source for Software & IT Solution Insights</title>
+    <meta name="description" content="Discover expert insights on software, IT solutions, and industry trends on the PCD Consultancy Services Blog. Stay updated with tips and best practices.">
+    <meta name="keywords" content="Software development company, Software development consultation, Software Development Solutions, Offshore software development company, Software development services in India,Software Development, Agile Software Development, Custom Software Development, Software Development Services, Agile System Development, Scrum Software Development, Agile Development Scrum, Mobile App Development, IT Software Development">
+    <!-- _____________________CSS_____________________ -->
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        /* Basic styling for the page */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+            font-size: 2.5em;
+            /* margin-bottom: 20px; */
+        }
+
+        /* Blog Cards styling */
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .card {
+            background-color: #ffffff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-align: left;
+            transition: transform 0.2s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+
+        .card-content {
+            padding: 15px;
+        }
+
+        .card-title {
+            font-size: 1.5em;
+            color: #333;
+            margin: 0 0 10px;
+        }
+
+        .card-description {
+            color: #666;
+            font-size: 1em;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+
+        .card-button {
+            display: inline-flex;
+            align-items: center;
+            color: #ff5722;
+            font-weight: bold;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .card-button:hover {
+            color: #ff784e;
+        }
+
+        .card-button svg {
+            margin-left: 5px;
+            fill: currentColor;
+        }
+
+        /* Buttons */
+        .button {
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            font-size: 1em;
+            font-weight: bold;
+            text-align: center;
+            
+        }
+
+        .button-primary {
+            background-color: #FF5722;
+            color: #fff;
+            margin-right: 10px;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 1em 0;
+            color: #888;
+            font-size: 0.9em;
+            margin-top: 20px;
+            border-top: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Our Blogs</h1>
+        <div style="text-align: center;">
+            <a href="/index.html" class="card-button" style="margin-bottom: 20px;">back to home 
+            <svg width="16" height="16" viewBox="0 0 24 24">
+                <path d="M13 5l7 7-7 7M5 12h14"></path>
+            </svg>
+            </a>
+        </div>
+       <div id="cards">
+        <div class="card-grid">
+
+            <!-- Blog Card 1 -->
+            <div class="card">
+                <img src="/assets/images/5 Ways Custom Software Drives Efficiency Across Industries.png" alt="Blog 1 Image">
+                <div class="card-content">
+                    <h2 class="card-title">5 Ways Custom Software Drives Efficiency</h2>
+                    <p class="card-description">Discover how custom software solutions boost productivity across industries through automation, data tracking, and more.</p>
+                    <a href="/Blogs/5 Ways Custom Software Drives Efficiency Across Industries .html" class="card-button">Read More 
+                        <svg width="16" height="16" viewBox="0 0 24 24">
+                            <path d="M13 5l7 7-7 7M5 12h14"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Blog Card 2 -->
+            <div class="card">
+                <img src="/assets/images/blog-1.jpg" alt="Blog 2 Image">
+                <div class="card-content">
+                    <h2 class="card-title">The Future of AR in Real Estate</h2>
+                    <p class="card-description">Explore the transformative role of augmented reality in real estate, enhancing client experiences and property visualizations.</p>
+                    <a href="blog2.html" class="card-button">Read More 
+                        <svg width="16" height="16" viewBox="0 0 24 24">
+                            <path d="M13 5l7 7-7 7M5 12h14"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Blog Card 3 -->
+            <div class="card">
+                <img src="/assets/images/blog-2.jpg" alt="Blog 3 Image">
+                <div class="card-content">
+                    <h2 class="card-title">Building Scalable Solutions for Startups</h2>
+                    <p class="card-description">Learn how custom software solutions can support startups in achieving scalability, flexibility, and a competitive edge.</p>
+                    <a href="blog3.html" class="card-button">Read More 
+                        <svg width="16" height="16" viewBox="0 0 24 24">
+                            <path d="M13 5l7 7-7 7M5 12h14"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Add more cards as needed -->
+            
+        </div>
+    </div> 
+    <footer>
+        <div style="text-align: center;"><a href="https://wa.me/+918779392536/?text=Hello%20PCD%20Consultancy%20" target="_blank"><button class="button button-primary">Connect Us</button></a></div>
+        <p>PCD Consultancy Services</p>
+        <p>Email: hello@pcdconsultancyservices.in</p>
+        <p>Contact No.: 8779392536</p>
+    </footer>
+    </div>
+
+</body>
+
+</html>
