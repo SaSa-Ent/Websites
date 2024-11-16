@@ -518,6 +518,10 @@ body {
   font-size: 45px;
   color: var(--safety-orange);
 }
+.service-title h2 {
+  font-size: 45px;
+  color: var(--safety-orange);
+}
 
 .cta-services-line {
   border-top: 2px solid #191616;
